@@ -18,6 +18,11 @@
         <servlet-class>nl.hackexample.servlet.MaliciousUpdateServlet</servlet-class>
     </servlet>
     
+    <servlet>
+        <servlet-name>stealLoginFromCookie</servlet-name>
+        <servlet-class>nl.hackexample.servlet.StealLoginFromCookieServlet</servlet-class>
+    </servlet>
+    
     <servlet-mapping>
         <servlet-name>home</servlet-name>
         <url-pattern>/home</url-pattern>
@@ -26,6 +31,11 @@
     <servlet-mapping>
         <servlet-name>maliciousUpdate</servlet-name>
         <url-pattern>/maliciousUpdate</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>stealLoginFromCookie<servlet-name>
+        <url-pattern>/stealLoginFromCookie</url-pattern>
     </servlet-mapping>
 
     
