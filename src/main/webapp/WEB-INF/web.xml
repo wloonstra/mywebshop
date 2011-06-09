@@ -34,7 +34,7 @@
     </servlet-mapping>
     
     <servlet-mapping>
-        <servlet-name>stealLoginFromCookie<servlet-name>
+        <servlet-name>stealLoginFromCookie</servlet-name>
         <url-pattern>/stealLoginFromCookie</url-pattern>
     </servlet-mapping>
 
